@@ -76,4 +76,4 @@ remaining amount: 600
 
 - `burnTokens()` accepts a single object or an array, so one transaction can burn several different tokens.
 - To burn an entire balance, omit the token from the outputs and pass the full amount to `burnTokens()`.
-- If you ever need manual control instead of `burnTokens()`, burning can be allowed globally with `configure((x) => x.allowTokenBurning(true))` - see [Token Burning](../token-burning).
+- If you ever need manual control instead of `burnTokens()`, burning can be allowed globally with `configure((x) => x.allowTokenBurning(true))` - see [Token Burning](/token-burning).
