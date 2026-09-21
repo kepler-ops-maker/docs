@@ -74,4 +74,4 @@ Bob received exactly 1 ERG (1e9 nanoERG). Alice's balance dropped by 1.001 ERG: 
 
 ## Sending to a real wallet
 
-On a live network the only difference is where inputs and height come from. Fetch the current height from the explorer API and the sender's boxes from their wallet (see [Wallet Interaction](../wallet-interaction)), then build the transaction exactly as above. Read more about the builder methods in [Transaction Building](../transaction-building).
+On a live network the only difference is where inputs and height come from. Fetch the current height from the explorer API and the sender's boxes from their wallet (see [Wallet Interaction](/wallet-interaction)), then build the transaction exactly as above. Read more about the builder methods in [Transaction Building](/transaction-building).
